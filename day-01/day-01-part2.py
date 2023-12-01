@@ -1,7 +1,7 @@
 DIGITS_STR = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
 
 if __name__ == "__main__":
-    with open("input.txt", 'r') as file:
+    with open("part2/input.txt", 'r') as file:
         lines = [line.strip() for line in file.readlines()]
     rst = 0
     for line in lines:
